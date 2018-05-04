@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.boardsandbrews.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/brewing"
+        android:contentDescription="Brewery image"/>
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boards and Brews"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surf City's Premier brewery and board game shop: Come for the brews, stay for the fun! Board game tournaments held every weekend."
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Now Open at Pacific City!"
+        android:textSize="24sp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_place_black_24dp"
+        android:text="21010 Pacific Coast Hwy, Huntington Beach, CA 92648"
+        android:textSize="20sp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_access_time_black_24dp"
+        android:text="Open noon to 9pm daily"
+        android:textSize="20sp"
+        android:paddingLeft="30dp"/>
+
+
+</LinearLayout>
