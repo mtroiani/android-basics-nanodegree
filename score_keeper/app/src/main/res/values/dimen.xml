@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scoreSz">56sp</dimen>
+    <dimen name="sectionSz">28sp</dimen>
+    <dimen name="btnMargin">15dp</dimen>
+</resources>
