@@ -39,4 +39,11 @@ public class MainActivity extends AppCompatActivity {
         scoreAwayTeam += 5;
         display(scoreAwayTeam, R.id.away_score);
     }
+
+    public void resetBtn(View v) {
+        scoreAwayTeam = 0;
+        scoreHomeTeam = 0;
+        display(scoreAwayTeam, R.id.away_score);
+        display(scoreHomeTeam, R.id.home_score);
+    }
 }
